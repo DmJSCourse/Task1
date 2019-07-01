@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru-UA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>L1E1</title>
+    <style>
+        .wrap {
+            display: flex;
+            justify-content: center;
+        }
+
+        input {
+            width: 200px;
+            padding: 0px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <form action="#">
+            Name <input type="text" id="string"><br>
+            Age <input type="number" id="number"><br>
+            Date of birth <input type="date" id="date"><br>
+            Yes <input type="radio" name="radioButton" checked="checked" onclick="radio=true;"><br>
+            No <input type="radio" name="radioButton" id="no" onclick="radio=false;"><br>
+            <input type="hidden" id="nullfield" value="null">
+            <input type="submit" id="toJS" onclick="buttonpress()">
+
+        </form>
+    </div>
+    <script src="L1E1.js"></script>
+</body>
+
+</html>
